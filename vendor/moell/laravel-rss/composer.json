@@ -1,0 +1,22 @@
+{
+    "name": "/laravel-rss",
+    "description": "Based on /rss development laravel version",
+    "keywords": ["rss","laravel"],
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "",
+            "email": "91@foxmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "/rss" : "1.*"
+    },
+    "autoload" : {
+        "psr-4": {
+            "\\LaravelRss\\": "src/"
+        }
+    }
+}
