@@ -104,6 +104,7 @@ class Kernel implements KernelContract
         try {
             $this->bootstrap();
 
+
             return $this->getArtisan()->run($input, $output);
         } catch (Exception $e) {
             $this->reportException($e);

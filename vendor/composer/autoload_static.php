@@ -2161,7 +2161,7 @@ class ComposerStaticInit0e87365a6c79c458768e2e55f7f403d8
         'Mockery\\VerificationDirector' => __DIR__ . '/..' . '/mockery/mockery/library/Mockery/VerificationDirector.php',
         'Mockery\\VerificationExpectation' => __DIR__ . '/..' . '/mockery/mockery/library/Mockery/VerificationExpectation.php',
         '\\LaravelRss\\RssFacade' => __DIR__ . '/..' . '//laravel-rss/src/RssFacade.php',
-        '\\LaravelRss\\RssServiceProvider' => __DIR__ . '/..' . '//laravel-rss/src/RssServiceProvider.php',
+        '\\LaravelRss\\RssServiceProvider' => __DIR__ . '/..' . '/moell/laravel-rss/src/RssServiceProvider.php',
         '\\Rss\\Contracts\\RssContract' => __DIR__ . '/..' . '//rss/src/Contracts/RssContract.php',
         '\\Rss\\Rss' => __DIR__ . '/..' . '//rss/src/Rss.php',
         'Monolog\\ErrorHandler' => __DIR__ . '/..' . '/monolog/monolog/src/Monolog/ErrorHandler.php',

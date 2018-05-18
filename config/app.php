@@ -159,7 +159,6 @@ return [
         Baum\Providers\BaumServiceProvider::class,
         Prettus\Repository\Providers\RepositoryServiceProvider::class,
         App\Providers\PaginationServiceProvider::class,
-        \LaravelRss\RssServiceProvider::class,
     ],
 
     /*
@@ -206,7 +205,6 @@ return [
         'Validator' => Illuminate\Support\Facades\Validator::class,
         'View' => Illuminate\Support\Facades\View::class,
         'Debugbar' => Barryvdh\Debugbar\Facade::class,
-        'Rss'   => \LaravelRss\RssFacade::class,
 
     ],
 

@@ -1765,7 +1765,7 @@ return array(
     'Mockery\\VerificationDirector' => $vendorDir . '/mockery/mockery/library/Mockery/VerificationDirector.php',
     'Mockery\\VerificationExpectation' => $vendorDir . '/mockery/mockery/library/Mockery/VerificationExpectation.php',
     '\\LaravelRss\\RssFacade' => $vendorDir . '//laravel-rss/src/RssFacade.php',
-    '\\LaravelRss\\RssServiceProvider' => $vendorDir . '//laravel-rss/src/RssServiceProvider.php',
+    '\\LaravelRss\\RssServiceProvider' => $vendorDir . '/moell/laravel-rss/src/RssServiceProvider.php',
     '\\Rss\\Contracts\\RssContract' => $vendorDir . '//rss/src/Contracts/RssContract.php',
     '\\Rss\\Rss' => $vendorDir . '//rss/src/Rss.php',
     'Monolog\\ErrorHandler' => $vendorDir . '/monolog/monolog/src/Monolog/ErrorHandler.php',
