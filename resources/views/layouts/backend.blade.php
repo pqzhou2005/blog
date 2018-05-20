@@ -123,7 +123,7 @@
         <div class="pull-right hidden-xs">
 
         </div>
-        <strong>Powered by <a href="http://.cn" target="_blank"> Blog</a></strong>
+        <strong>Powered by <a href="http://www.bauniv.com" target="_blank"> pqzhou</a></strong>
     </footer>
 </div>
 <!-- ./wrapper -->

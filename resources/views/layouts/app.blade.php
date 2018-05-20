@@ -41,31 +41,33 @@
     </div>
 </nav>
 <!-- Main jumbotron for a primary marketing message or call to action -->
-<div class="jumbotron">
+<!--<div class="jumbotron">
     <div class="container">
         <p>
             @yield('header-text')
         </p>
     </div>
+</div>-->
+<div id="Wrapper">
+    <div class="container">
+        <div class='row'>
+            <div class='col-md-8' >
+                <div class="content">
+                    @yield('content')
+                </div>
+            </div>
+            <div class='col-md-4'>
+                @include('default.author')
+
+                @include('default.tag')
+
+                @include('default.hot')
+
+                @include('default.link')
+            </div>
+        </div>
+    </div> <!-- /container -->
 </div>
-
-<div class="container">
-    <div class='row'>
-        <div class='col-md-8' >
-            @yield('content')
-        </div>
-        <div class='col-md-4'>
-            @include('default.author')
-
-            @include('default.tag')
-
-            @include('default.hot')
-
-            @include('default.link')
-        </div>
-    </div>
-</div> <!-- /container -->
-
 
 @include('default.footer')
 

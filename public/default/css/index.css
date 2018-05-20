@@ -2,19 +2,19 @@
     margin-bottom: 0;
 }
 .navbar-default, .jumbotron {
-    background-color: #3D93A3;
+    background-color: #fff;
 }
 
 .navbar-default, .jumbotron a{
-    color: white;
+    color: black;
 }
 
 .navbar-default .navbar-nav>li>a {
-    color: white;
+    color: black;
 }
 
 .navbar-default .navbar-brand {
-    color: white;
+    color: black;
 }
 
 .navbar-default .navbar-brand:focus,.navbar-default .navbar-brand:hover {
@@ -54,11 +54,22 @@
     margin-top:25px;
 }
 
+#Wrapper {
+    text-align: center;
+    background-color: #e2e2e2;
+    background-image: url(/default/imgs/shadow_light.png);
+    background-repeat: repeat-x;
+    padding-top:20px;
+}
+
+.content {
+    background-color: white;
+}
 
 .article-list .desc {
     margin-top:25px;
     word-break:break-all;
-    color:#34495e;
+    color:black;
 }
 
 .article-list .info {
@@ -76,7 +87,6 @@
 
 #footer {
     border-top:1px solid #ddd;
-    margin-top:20px;
     height:60px;
     background-color: #fafafa;
     background: -webkit-linear-gradient(#fafafa, #ffffff); /* Safari 5.1 - 6.0 */

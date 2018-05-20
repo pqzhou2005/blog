@@ -3,11 +3,7 @@
         <div class="row">
             <div class="col-md-12 text-center">
                 <p style="margin-top:15px;">
-                    <strong>Powered by <a href="http://.cn" target="_blank"> Blog</a></strong>
-                    &nbsp;&nbsp;
-                    <a href='https://github.com/-peng/-blog' target="_blank">
-                        <span class="icon-github" style="padding-right:20px;"></span>
-                    </a>
+                    <strong>Powered by <a href="http://www.bauniv.com" target="_blank"> pqzhou</a></strong>
                 </p>
             </div>
         </div>
