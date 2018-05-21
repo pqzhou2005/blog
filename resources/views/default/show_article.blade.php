@@ -13,39 +13,37 @@
     <link rel="stylesheet" href="{{ asset('share.js/css/share.min.css') }}">
 @endsection
 
-@section('header-text')
-    <div class="text-inner">
-        <div class="row">
-            <div class="col-md-12 to-animate fadeInUp animated">
-                <h3 class="color-white">
-                    {{ $article->title }}
-                </h3>
-
-                <p class=" m-t-25 color-white">
-                    <i class="glyphicon glyphicon-calendar"></i>{{ $article->created_at }}
-                    &nbsp;
-                    @if($article->category)
-                        <i class="glyphicon glyphicon-th-list"></i>
-                        <a href="{{ route('category', ['id' => $article->cate_id]) }}" target="_blank">
-                            {{ $article->category->name }}
-                        </a>
-                    @endif
-                </p>
-                <p class="color-white">
-                    <i class="glyphicon glyphicon-tags"></i>&nbsp;
-                    @foreach ($article->tag as $tag)
-                        <a href="{{ route('tag', ['id' => $tag->id]) }}" target="_blank">
-                            {{ $tag->tag_name }}
-                        </a>
-                        &nbsp;
-                    @endforeach
-                </p>
-            </div>
-        </div>
-    </div>
-@endsection
-
 @section('content')
+
+    <div class="row">
+        <div class="col-md-12">
+            <h3 class="color-black">
+                {{ $article->title }}
+            </h3>
+            <p class=" m-t-25 color-black">
+                <i class="glyphicon glyphicon-calendar"></i>{{ $article->created_at }}
+                &nbsp;
+                @if($article->category)
+                    <i class="glyphicon glyphicon-th-list"></i>
+                    <a href="{{ route('category', ['id' => $article->cate_id]) }}" target="_blank">
+                        {{ $article->category->name }}
+                    </a>
+                @endif
+            </p>
+            <p class="color-black">
+                <i class="glyphicon glyphicon-tags"></i>&nbsp;
+                @foreach ($article->tag as $tag)
+                    <a href="{{ route('tag', ['id' => $tag->id]) }}" target="_blank">
+                        {{ $tag->tag_name }}
+                    </a>
+                    &nbsp;
+                @endforeach
+            </p>
+        </div>
+
+
+    </div>
+
     <div class="markdown-body editormd-html-preview" style="padding:0;">
         {!! $article->html_content !!}
     </div>

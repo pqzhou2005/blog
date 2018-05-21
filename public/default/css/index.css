@@ -18,8 +18,8 @@
 }
 
 .navbar-default .navbar-brand:focus,.navbar-default .navbar-brand:hover {
-    color: white;
-    background-color: transparent;
+    color: #000;
+    text-decoration: none;
 }
 
 

@@ -44,7 +44,7 @@
 <!--<div class="jumbotron">
     <div class="container">
         <p>
-            @yield('header-text')
+
         </p>
     </div>
 </div>-->
