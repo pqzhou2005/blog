@@ -53,7 +53,7 @@
         <div class='row'>
             <div class='col-md-8' >
 
-                <div class="sep10"></div>
+                <div class="sep20"></div>
 
                 <div class="box content">
                     @yield('content')

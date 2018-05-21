@@ -5,12 +5,12 @@
     @inject('linkPresenter', 'App\Presenters\LinkPresenter')
 
     <!-- List group -->
-    <ul class="list-group">
+    <ul class="list-group-default">
         <?php $links = $linkPresenter->linkList() ?>
 
         @if ($links)
             @foreach ($links as $link)
-                <li class="list-group-item">
+                <li class="list-group-item-default">
                     <a href="{{ $link->url }}" target="_blank">{{ $link->name }}</a>
                 </li>
             @endforeach

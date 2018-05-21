@@ -49,10 +49,10 @@ class ArticlePresenter extends FractalPresenter
 
     public function formatTitle($title)
     {
-        if (strlen($title) <= 20) {
+        if (mb_strlen($title) <= 25) {
             return $title;
         } else {
-            return mb_substr($title, 0, 20, 'utf-8')."...";
+            return mb_substr($title, 0, 25, 'utf-8')."...";
         }
     }
 }

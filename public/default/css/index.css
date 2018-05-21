@@ -55,7 +55,6 @@
 }
 
 #Wrapper {
-    text-align: center;
     background-color: #e2e2e2;
     background-image: url(/default/imgs/shadow_light.png);
     background-repeat: repeat-x;
@@ -72,12 +71,27 @@
     height: 20px;
 }
 
-.sep10 {
-    height: 10px;
-}
-
 .content {
     min-height: 800px;
+    padding: 20px;
+}
+
+.list-group-default {
+    padding-left: 0px;
+}
+
+.list-group-item-default {
+    list-style:none;
+    padding: 10px;
+    font-size: 14px;
+    line-height: 120%;
+    text-align: left;
+    border-bottom: 1px solid #e2e2e2;
+}
+
+.list-group-item-default:last-child
+{
+    border:none
 }
 
 .article-list .desc {
