@@ -59,11 +59,25 @@
     background-color: #e2e2e2;
     background-image: url(/default/imgs/shadow_light.png);
     background-repeat: repeat-x;
-    padding-top:20px;
+}
+
+.box {
+    background-color: #fff;
+    border-radius: 3px;
+    box-shadow: 0 2px 3px rgba(0,0,0,.1);
+    border-bottom: 1px solid #e2e2e2;
+}
+
+.sep20 {
+    height: 20px;
+}
+
+.sep10 {
+    height: 10px;
 }
 
 .content {
-    background-color: white;
+    min-height: 800px;
 }
 
 .article-list .desc {

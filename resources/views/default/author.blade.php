@@ -1,4 +1,4 @@
-<div class="panel panel-default author">
+<div class="panel-default author">
     @inject('userPresenter', 'App\Presenters\UserPresenter')
     <?php
         $author = isset($user->id) ? $user : $userPresenter->getUserInfo();

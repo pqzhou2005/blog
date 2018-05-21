@@ -1,4 +1,4 @@
-<div class="panel panel-default">
+<div class="panel-default">
     <!-- Default panel contents -->
     <div class="panel-heading">热门文章</div>
 

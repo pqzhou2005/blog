@@ -52,18 +52,43 @@
     <div class="container">
         <div class='row'>
             <div class='col-md-8' >
-                <div class="content">
+
+                <div class="sep10"></div>
+
+                <div class="box content">
                     @yield('content')
                 </div>
+
+                <div class="sep20"></div>
+
             </div>
             <div class='col-md-4'>
-                @include('default.author')
 
-                @include('default.tag')
+                <div class="sep20"></div>
 
-                @include('default.hot')
+                <div class="box">
+                    @include('default.author')
+                </div>
 
-                @include('default.link')
+                <div class="sep20"></div>
+
+                <div class="box">
+                    @include('default.tag')
+                </div>
+
+                <div class="sep20"></div>
+
+                <div class="box">
+                    @include('default.hot')
+                </div>
+
+                <div class="sep20"></div>
+
+                <div class="box">
+                    @include('default.link')
+                </div>
+
+                <div class="sep20"></div>
             </div>
         </div>
     </div> <!-- /container -->
