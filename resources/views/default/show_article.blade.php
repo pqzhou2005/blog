@@ -17,7 +17,7 @@
 
     <div class="row">
         <div class="col-md-12">
-            <h3 class="color-black">
+            <h3 class="text-center color-black">
                 {{ $article->title }}
             </h3>
             <p class=" m-t-25 color-black">

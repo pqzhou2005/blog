@@ -40,14 +40,7 @@
         @include('default.navigation')
     </div>
 </nav>
-<!-- Main jumbotron for a primary marketing message or call to action -->
-<!--<div class="jumbotron">
-    <div class="container">
-        <p>
 
-        </p>
-    </div>
-</div>-->
 <div id="Wrapper">
     <div class="container">
         <div class='row'>

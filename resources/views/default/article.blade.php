@@ -12,19 +12,20 @@
                 </p>
                 <p class="info">
                     <span>
-                        <i class="glyphicon glyphicon-calendar"></i>{{ date('Y-m-d', strtotime($article->created_at)) }}
+                        {{ date('Y-m-d', strtotime($article->created_at)) }}
                     </span>
                             &nbsp;
                     @if($article->category)
                     <span>
-                        <i class="glyphicon glyphicon-th-list"></i>
+                        <span>分类：</span>
                         <a href="{{ route('category', ['id' => $article->cate_id]) }}" target="_blank">
                             {{ $article->category->name }}
                         </a>
                     </span>
                     @endif
                     <span>
-                        <i class="glyphicon glyphicon-eye-open"></i> {{ $article->read_count }} views
+                        <span>阅读：</span>
+                        {{ $article->read_count }}
                     </span>
                 </p>
             </li>
