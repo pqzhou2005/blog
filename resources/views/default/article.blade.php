@@ -1,4 +1,4 @@
-@if($articles)
+@if($articles->total()>0)
     <ol class="article-list">
         @foreach ($articles as $article)
             <li>
@@ -27,12 +27,12 @@
                         <span class="label">阅读</span>
                         {{ $article->read_count }}
                     </span>
-                </>
+                </p>
             </li>
             <hr/>
         @endforeach
     </ol>
     {!! $articles->links() !!}
 @else
-    <h3>没有文章哟！！！</h3>
+    <h3>没有找到文章！！！</h3>
 @endif
