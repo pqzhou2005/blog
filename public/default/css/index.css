@@ -27,7 +27,7 @@
 }
 
 .nav-pills>li.active>a,.nav-pills>li.active>a:hover {
-    background-color: #334;
+    background-color: #CCCCCC;
     color:white;
 }
 
@@ -60,6 +60,10 @@
 
 .m-t-25 {
     margin-top:25px;
+}
+
+.label {
+    color: #aaa;
 }
 
 #Wrapper {

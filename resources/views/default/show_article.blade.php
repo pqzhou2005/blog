@@ -20,18 +20,27 @@
             <h3 class="text-center color-black">
                 {{ $article->title }}
             </h3>
-            <p class=" m-t-25 color-black">
-                <i class="glyphicon glyphicon-calendar"></i>{{ $article->created_at }}
+            <p class="text-center color-black">
+                {{ $article->created_at }}
                 &nbsp;
                 @if($article->category)
-                    <i class="glyphicon glyphicon-th-list"></i>
                     <a href="{{ route('category', ['id' => $article->cate_id]) }}" target="_blank">
                         {{ $article->category->name }}
                     </a>
                 @endif
             </p>
-            <p class="color-black">
-                <i class="glyphicon glyphicon-tags"></i>&nbsp;
+        </div>
+
+    </div>
+
+    <div class="markdown-body editormd-html-preview">
+        {!! $article->html_content !!}
+    </div>
+
+    <div class="row">
+        <div class="col-md-12">
+            <p class="text-center color-black">
+                <span class="label">标签</span>
                 @foreach ($article->tag as $tag)
                     <a href="{{ route('tag', ['id' => $tag->id]) }}" target="_blank">
                         {{ $tag->tag_name }}
@@ -40,12 +49,6 @@
                 @endforeach
             </p>
         </div>
-
-
-    </div>
-
-    <div class="markdown-body editormd-html-preview" style="padding:0;">
-        {!! $article->html_content !!}
     </div>
 
     <div id="share" class="social-share m-t-25"></div>

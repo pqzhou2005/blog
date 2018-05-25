@@ -17,17 +17,17 @@
                             &nbsp;
                     @if($article->category)
                     <span>
-                        <span>分类：</span>
+                        <span class="label">分类</span>
                         <a href="{{ route('category', ['id' => $article->cate_id]) }}" target="_blank">
                             {{ $article->category->name }}
                         </a>
                     </span>
                     @endif
                     <span>
-                        <span>阅读：</span>
+                        <span class="label">阅读</span>
                         {{ $article->read_count }}
                     </span>
-                </p>
+                </>
             </li>
             <hr/>
         @endforeach
