@@ -6,7 +6,7 @@
                     <strong>Powered by <a href="http://www.bauniv.com" target="_blank"> pqzhou</a></strong>
                 </p>
                 <p>
-                    <strong><a href="http://miitbeian.gov.cn" target="_blank">{!! $systemPresenter->getKeyValue('icp') !!}</a></strong>
+                    <strong><a href="http://www.miitbeian.gov.cn" target="_blank">{!! $systemPresenter->getKeyValue('icp') !!}</a></strong>
                 </p>
             </div>
         </div>
