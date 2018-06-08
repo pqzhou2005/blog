@@ -81,6 +81,7 @@
                                         <option value="">请选择</option>
                                         <option value="duoshuo" {{ $system['comment_plugin'] == 'duoshuo' ? " selected " : "" }}>多说</option>
                                         <option value="disqus" {{ $system['comment_plugin'] == 'disqus' ? " selected " : "" }}>disqus</option>
+                                        <option value="livere" {{ $system['comment_plugin'] == 'livere' ? " selected " : "" }}>livere</option>
                                     </select>
                                 </div>
                             </div>
